@@ -24,6 +24,8 @@ console.log(userName);
  * charAt: position at 0-index (0, 1, 2, 3, ...)
  * replace: change one string by match
  * includes: checks if one string is inside the string
+ * toUpperCase: converts text as mayus
+ * toLowerCase: converts text as minus
  */
 
 console.log(userName.concat('2'));
@@ -44,3 +46,5 @@ console.log(userName.replace('silk', 'salk'));
 console.log(userName.includes('silk'));
 
 console.log(userName.toUpperCase());
+
+console.log('JONATHAN'.toLowerCase());
