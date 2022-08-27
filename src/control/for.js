@@ -2,23 +2,23 @@ const maxSize = 100;
 const breakNumber = 50;
 
 for (
-    let number = 1;
-    number <= maxSize;
-    number += 1
+  let number = 1;
+  number <= maxSize;
+  number += 1
 ) {
-    if (number === breakNumber) {
-        break;
-    }
+  if (number === breakNumber) {
+    break;
+  }
 
-    if (number % 2 === 0) {
-        console.log(number, 'pair');
+  if (number % 2 === 0) {
+    console.log(number, 'pair');
 
-        continue;
+    continue;
 
-        console.log('jajajajajajajajajja');
-    }
+    console.log('jajajajajajajajajja');
+  }
 
-    console.log(number, 'odd');
+  console.log(number, 'odd');
 }
 
 console.log('loop ended');
